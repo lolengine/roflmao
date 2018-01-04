@@ -18,8 +18,16 @@ Make sure Lol Engine and its submodules are properly initialised:
 On Linux, make sure the following packages are installed:
 
     automake autoconf libtool pkg-config
-    libglew-dev
-    libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev
+
+## Activate optional subsystems
+
+You can edit `build.config` to activate some subsystems:
+
+  - OpenGL (requires `libglew-dev`)
+  - SDL (requires `libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev`)
+  - FFmpeg
+  - Imlib2
+  - libPNG
 
 ## Configure
 
